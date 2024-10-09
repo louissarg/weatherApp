@@ -1,0 +1,10 @@
+body {
+  background-color: aqua;
+}
+
+.weather-app {
+  background-color: aliceblue;
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 25px;
+}
