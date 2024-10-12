@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form class="search-form" id="search-form">
           <input
             type="=search"
             placeholder="Enter a city"
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1>South Africa</h1>
+            <h1 class="weather-app-city" id="weather-app-city">South Africa</h1>
             <p class="weather-app-details">
               Tuesday 14:49,scatterd clouds
               <br />
@@ -52,5 +53,6 @@
         <a href="https://louissar-weather-app.netlify.app/">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
